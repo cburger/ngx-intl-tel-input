@@ -3,6 +3,7 @@ dist: trusty
 sudo: required
 node_js:
   - "7.6.0"
+  - "10"
 
 before_install:
  - export CHROME_BIN=/usr/bin/google-chrome
